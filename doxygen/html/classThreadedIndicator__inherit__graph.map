@@ -1,0 +1,9 @@
+<map id="ThreadedIndicator" name="ThreadedIndicator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,145,251"/>
+<area shape="rect" id="Node000002" href="$classThreadObject.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="21,152,130,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,191,78,225,73,225,73,191"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Класс для организации работы обьектов проекта" alt="" coords="43,79,107,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,118,78,152,73,152,73,118"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="47,5,103,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,44,78,79,73,79,73,44"/>
+</map>

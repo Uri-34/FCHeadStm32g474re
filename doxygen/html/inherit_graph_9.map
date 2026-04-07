@@ -1,0 +1,9 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,93,31"/>
+<area shape="rect" id="Node000001" href="$classNeoPixel.html" title=" " alt="" coords="141,5,220,31"/>
+<area shape="poly" id="edge41_Node000000_Node000001" title=" " alt="" coords="107,15,141,15,141,21,107,21"/>
+<area shape="rect" id="Node000002" href="$classWS2811FIndicator.html" title=" " alt="" coords="268,31,408,56"/>
+<area shape="poly" id="edge42_Node000001_Node000002" title=" " alt="" coords="234,24,268,29,267,35,233,29"/>
+<area shape="rect" id="Node000003" href="$classRGB.html" title=" " alt="" coords="155,55,206,80"/>
+<area shape="poly" id="edge43_Node000003_Node000002" title=" " alt="" coords="219,59,268,51,268,57,220,64"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="I2CWeMosMotorShield" name="I2CWeMosMotorShield">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,372,173,397"/>
+<area shape="rect" id="Node000002" href="$classI2CDevice.html" title=" " alt="" coords="45,299,133,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,338,92,372,87,372,87,338"/>
+<area shape="rect" id="Node000003" href="$classDevice.html" title=" " alt="" coords="56,225,123,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,264,92,299,87,299,87,264"/>
+<area shape="rect" id="Node000004" href="$classObject.html" title="Базовый класс проекта" alt="" coords="57,152,121,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,191,92,225,87,225,87,191"/>
+<area shape="rect" id="Node000005" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="61,79,117,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="92,118,92,152,87,152,87,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="23,5,155,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="92,44,92,79,87,79,87,44"/>
+</map>

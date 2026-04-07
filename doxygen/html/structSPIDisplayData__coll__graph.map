@@ -1,0 +1,15 @@
+<map id="SPIDisplayData" name="SPIDisplayData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,181,301,207"/>
+<area shape="rect" id="Node000002" href="$structDisplayData.html" title=" " alt="" coords="79,93,182,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,125,227,179,223,183,155,129"/>
+<area shape="rect" id="Node000003" href="$classSize2D.html" title="тип Size2D" alt="" coords="5,5,72,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="61,39,91,67,118,91,115,95,88,71,58,42"/>
+<area shape="rect" id="Node000004" href="$structPoint2D.html" title="тип Point2D" alt="" coords="97,5,170,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="135,45,134,93,128,93,130,44"/>
+<area shape="rect" id="Node000005" href="$classSPIBus.html" title=" " alt="" coords="207,93,273,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="243,133,243,181,237,181,237,133"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="197,5,283,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="243,45,243,93,237,93,237,45"/>
+<area shape="rect" id="Node000007" href="$structDisplayPorts.html" title=" " alt="" coords="297,93,401,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="325,129,257,183,253,179,322,125"/>
+</map>

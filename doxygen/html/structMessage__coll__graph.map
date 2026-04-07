@@ -1,0 +1,11 @@
+<map id="Message" name="Message">
+<area shape="rect" id="Node000001" title=" " alt="" coords="31,317,111,343"/>
+<area shape="rect" id="Node000002" href="$classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="35,229,107,255"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,269,74,317,69,317,69,269"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Базовый класс проекта" alt="" coords="39,155,103,180"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,194,74,229,69,229,69,194"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,80,99,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,120,74,154,69,154,69,120"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="74,45,74,80,69,80,69,45"/>
+</map>

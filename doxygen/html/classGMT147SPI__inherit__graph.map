@@ -1,0 +1,17 @@
+<map id="GMT147SPI" name="GMT147SPI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,519,119,544"/>
+<area shape="rect" id="Node000002" href="$classSPIDisplay.html" title=" " alt="" coords="26,445,117,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,484,74,519,69,519,69,484"/>
+<area shape="rect" id="Node000003" href="$classDisplay.html" title=" " alt="" coords="36,372,107,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,411,74,445,69,445,69,411"/>
+<area shape="rect" id="Node000004" href="$classThreadProcess.html" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="13,299,130,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,338,74,372,69,372,69,338"/>
+<area shape="rect" id="Node000005" href="$classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="35,225,107,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="74,264,74,299,69,299,69,264"/>
+<area shape="rect" id="Node000006" href="$classObject.html" title="Базовый класс проекта" alt="" coords="39,152,103,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="74,191,74,225,69,225,69,191"/>
+<area shape="rect" id="Node000007" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,79,99,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="74,118,74,152,69,152,69,118"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>

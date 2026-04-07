@@ -1,0 +1,19 @@
+<map id="Blender" name="Blender">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,592,115,617"/>
+<area shape="rect" id="Node000002" href="$classTMC2209I2CEngine.html" title=" " alt="" coords="5,519,153,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,558,82,592,77,592,77,558"/>
+<area shape="rect" id="Node000003" href="$classI2CStepDirEngine.html" title=" " alt="" coords="12,445,147,471"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,484,82,519,77,519,77,484"/>
+<area shape="rect" id="Node000004" href="$classI2CEngine.html" title=" " alt="" coords="36,372,123,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,411,82,445,77,445,77,411"/>
+<area shape="rect" id="Node000005" href="$classI2CDevice.html" title=" " alt="" coords="35,299,123,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="82,338,82,372,77,372,77,338"/>
+<area shape="rect" id="Node000006" href="$classDevice.html" title=" " alt="" coords="46,225,113,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="82,264,82,299,77,299,77,264"/>
+<area shape="rect" id="Node000007" href="$classObject.html" title="Базовый класс проекта" alt="" coords="47,152,111,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="82,191,82,225,77,225,77,191"/>
+<area shape="rect" id="Node000008" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="51,79,107,104"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="82,118,82,152,77,152,77,118"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="13,5,145,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="82,44,82,79,77,79,77,44"/>
+</map>

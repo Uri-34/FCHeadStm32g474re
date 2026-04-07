@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Head: Исходный файл src/Object/VisualObjects/Window/Window.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Head<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Прошивка для управления головкой</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_184e1001231436f60c388bf98ff76a10.html">Object</a></li><li class="navelem"><a class="el" href="dir_eafe2538903cdfd477c3ee6c85fc8630.html">VisualObjects</a></li><li class="navelem"><a class="el" href="dir_ebbcd2de3341d3eb3dd343cb5b78c872.html">Window</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Window.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef WINDOW_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define WINDOW_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Common/Common.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Object/VisualObjects/Text/Text.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Object/VisualObjects/Image/Image.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;Object/Process/ThreadProcess/Displays/Color/Color.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;Object/VisualObjects/Window/Frame/Border/Border.h&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structCursor.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structCursor.html">Cursor</a> <span class="comment">// курсор</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    : <a class="code hl_struct" href="structPoint2D.html">Point2D</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    uint8_t form; <span class="comment">// форма</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_struct" href="structCursor.html">Cursor</a>(<span class="keyword">const</span> int16_t x = 0, <span class="keyword">const</span> int16_t y = 0, uint8_t form = 1) </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        : <a class="code hl_struct" href="structPoint2D.html">Point2D</a>(x, y)</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    {}</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
+</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classWindow.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="classWindow.html">Window</a> <span class="comment">// окно</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    : <span class="keyword">protected</span> <a class="code hl_class" href="classVisualObject.html">VisualObject</a> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_struct" href="structBorder.html">Border</a> _border; <span class="comment">// рамка </span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    color_t _background{0}; <span class="comment">// цвет фона</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    vector&lt;VisualObject&gt; _objects; <span class="comment">// вектор обьектов</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_struct" href="structCursor.html">Cursor</a> _cursor; <span class="comment">// позиция курсора - 0, 0 ; форма - 1; - по умолчаниб  </span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_class" href="classWindow.html">Window</a>(<span class="keyword">const</span> <a class="code hl_class" href="classArea2D.html">Area2D</a> &amp;area, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp;<a class="code hl_function" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, <span class="keyword">const</span> uint32_t <span class="keywordtype">id</span>, <a class="code hl_class" href="classVisualObject.html">VisualObject</a> *<a class="code hl_function" href="classObject.html#aa16d3e952edc0d01935e338e2e785837">parent</a> = <span class="keyword">nullptr</span>) </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        : <a class="code hl_class" href="classVisualObject.html">VisualObject</a>(area, <a class="code hl_function" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, WindowID, <a class="code hl_function" href="classObject.html#aa16d3e952edc0d01935e338e2e785837">parent</a>)</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {}      </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> setBackground(color_t color) { _background = color; } <span class="comment">// установка цвета фона</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">inline</span> color_t background() { <span class="keywordflow">return</span> _background; } <span class="comment">// возврат цвета фона</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> setBorder(<span class="keyword">const</span> <a class="code hl_struct" href="structBorder.html">Border</a> &amp;border) { _border = border; } <span class="comment">// установка рамки</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_struct" href="structBorder.html">Border</a>&amp; border() { <span class="keywordflow">return</span> _border; } <span class="comment">// возврат ссылки на рамку</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> setCursor(<span class="keyword">const</span> <a class="code hl_struct" href="structCursor.html">Cursor</a> &amp;cursor) { _cursor = cursor; } <span class="comment">// установка положения курсора</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_struct" href="structCursor.html">Cursor</a>&amp; cursor() { <span class="keywordflow">return</span> _cursor; } <span class="comment">// возврат положения курсора</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> operator&lt;&lt;(<span class="keyword">const</span> <a class="code hl_class" href="classText.html">Text</a> &amp;text) { _objects.push_back(text); } <span class="comment">// добавление строки</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> operator&lt;&lt;(<span class="keyword">const</span> <a class="code hl_class" href="classImage.html">Image</a> &amp;image) { _objects.push_back(image); } <span class="comment">// добавление изображения</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> operator&lt;&lt;(<span class="keyword">const</span> <a class="code hl_class" href="classWindow.html">Window</a> &amp;window) { _objects.push_back(window); } <span class="comment">// добавление окна</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> show() <span class="keyword">override</span>; <span class="comment">// показать</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> hide() <span class="keyword">override</span>; <span class="comment">// скрыть</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif </span><span class="comment">// WINDOW_H</span></div>
+<div class="ttc" id="aclassArea2D_html"><div class="ttname"><a href="classArea2D.html">Area2D</a></div><div class="ttdef"><b>Definition</b> Common.h:210</div></div>
+<div class="ttc" id="aclassImage_html"><div class="ttname"><a href="classImage.html">Image</a></div><div class="ttdef"><b>Definition</b> Image.h:19</div></div>
+<div class="ttc" id="aclassObject_html_a4fef7056faa2e88aa30658e83acbdaf8"><div class="ttname"><a href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">Object::name</a></div><div class="ttdeci">const string &amp; name() const</div><div class="ttdoc">метод возвращающий текущее имя обьекта</div><div class="ttdef"><b>Definition</b> Object.h:44</div></div>
+<div class="ttc" id="aclassObject_html_aa16d3e952edc0d01935e338e2e785837"><div class="ttname"><a href="classObject.html#aa16d3e952edc0d01935e338e2e785837">Object::parent</a></div><div class="ttdeci">Object * parent() const</div><div class="ttdoc">метод возвращающий указатель на владельца</div><div class="ttdef"><b>Definition</b> Object.h:50</div></div>
+<div class="ttc" id="aclassText_html"><div class="ttname"><a href="classText.html">Text</a></div><div class="ttdef"><b>Definition</b> Text.h:19</div></div>
+<div class="ttc" id="aclassVisualObject_html"><div class="ttname"><a href="classVisualObject.html">VisualObject</a></div><div class="ttdef"><b>Definition</b> VisualObject.h:59</div></div>
+<div class="ttc" id="aclassWindow_html"><div class="ttname"><a href="classWindow.html">Window</a></div><div class="ttdef"><b>Definition</b> Window.h:22</div></div>
+<div class="ttc" id="astructBorder_html"><div class="ttname"><a href="structBorder.html">Border</a></div><div class="ttdef"><b>Definition</b> Border.h:7</div></div>
+<div class="ttc" id="astructCursor_html"><div class="ttname"><a href="structCursor.html">Cursor</a></div><div class="ttdef"><b>Definition</b> Window.h:12</div></div>
+<div class="ttc" id="astructPoint2D_html"><div class="ttname"><a href="structPoint2D.html">Point2D</a></div><div class="ttdoc">тип Point2D</div><div class="ttdef"><b>Definition</b> Common.h:92</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

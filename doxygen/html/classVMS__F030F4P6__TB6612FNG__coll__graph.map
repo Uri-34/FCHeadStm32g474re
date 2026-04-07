@@ -1,0 +1,11 @@
+<map id="VMS_F030F4P6_TB6612FNG" name="VMS_F030F4P6_TB6612FNG">
+<area shape="rect" id="Node000001" title="клас описывающий работу WeMos i2c драйвера для управления 2мя ассинхронными двигателями" alt="" coords="5,299,212,324"/>
+<area shape="rect" id="Node000002" href="$classI2CDevice.html" title=" " alt="" coords="65,225,153,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,264,111,299,106,299,106,264"/>
+<area shape="rect" id="Node000003" href="$classDevice.html" title=" " alt="" coords="75,152,142,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,191,111,225,106,225,106,191"/>
+<area shape="rect" id="Node000004" href="$classObject.html" title="Базовый класс проекта" alt="" coords="77,79,141,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,118,111,152,106,152,106,118"/>
+<area shape="rect" id="Node000005" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="81,5,137,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+</map>

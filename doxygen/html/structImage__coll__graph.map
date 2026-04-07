@@ -1,0 +1,10 @@
+<map id="Image" name="Image">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,284,73,309"/>
+<area shape="rect" id="Node000002" href="$structRect.html" title="тип Rect" alt="" coords="17,108,67,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="41,147,37,182,37,221,43,284,38,284,31,221,32,182,35,147"/>
+<area shape="rect" id="Node000004" href="$structImageProperty.html" title=" " alt="" coords="83,196,201,221"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="68,140,130,193,126,197,64,144"/>
+<area shape="rect" id="Node000003" href="$structPoint2D.html" title="тип Point2D" alt="" coords="5,5,79,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="45,45,45,108,39,108,39,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,232,58,285,54,281,116,228"/>
+</map>

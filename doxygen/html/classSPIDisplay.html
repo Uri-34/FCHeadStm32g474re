@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Head: Класс SPIDisplay</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Head<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Прошивка для управления головкой</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classSPIDisplay-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс SPIDisplay<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Граф наследования:SPIDisplay:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSPIDisplay__inherit__graph.png" border="0" usemap="#aSPIDisplay_inherit__map" alt="Inheritance graph"/></div>
+<map name="aSPIDisplay_inherit__map" id="aSPIDisplay_inherit__map">
+<area shape="rect" title=" " alt="" coords="26,445,117,471"/>
+<area shape="rect" href="classGMT147SPI.html" title=" " alt="" coords="23,519,119,544"/>
+<area shape="poly" title=" " alt="" coords="74,484,74,519,69,519,69,484"/>
+<area shape="rect" href="classDisplay.html" title=" " alt="" coords="36,372,107,397"/>
+<area shape="poly" title=" " alt="" coords="74,411,74,445,69,445,69,411"/>
+<area shape="rect" href="classThreadProcess.html" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="13,299,130,324"/>
+<area shape="poly" title=" " alt="" coords="74,338,74,372,69,372,69,338"/>
+<area shape="rect" href="classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="35,225,107,251"/>
+<area shape="poly" title=" " alt="" coords="74,264,74,299,69,299,69,264"/>
+<area shape="rect" href="classObject.html" title="Базовый класс проекта" alt="" coords="39,152,103,177"/>
+<area shape="poly" title=" " alt="" coords="74,191,74,225,69,225,69,191"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,79,99,104"/>
+<area shape="poly" title=" " alt="" coords="74,118,74,152,69,152,69,118"/>
+<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса SPIDisplay:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSPIDisplay__coll__graph.png" border="0" usemap="#aSPIDisplay_coll__map" alt="Collaboration graph"/></div>
+<map name="aSPIDisplay_coll__map" id="aSPIDisplay_coll__map">
+<area shape="rect" title=" " alt="" coords="26,445,117,471"/>
+<area shape="rect" href="classDisplay.html" title=" " alt="" coords="36,372,107,397"/>
+<area shape="poly" title=" " alt="" coords="74,411,74,445,69,445,69,411"/>
+<area shape="rect" href="classThreadProcess.html" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="13,299,130,324"/>
+<area shape="poly" title=" " alt="" coords="74,338,74,372,69,372,69,338"/>
+<area shape="rect" href="classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="35,225,107,251"/>
+<area shape="poly" title=" " alt="" coords="74,264,74,299,69,299,69,264"/>
+<area shape="rect" href="classObject.html" title="Базовый класс проекта" alt="" coords="39,152,103,177"/>
+<area shape="poly" title=" " alt="" coords="74,191,74,225,69,225,69,191"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,79,99,104"/>
+<area shape="poly" title=" " alt="" coords="74,118,74,152,69,152,69,118"/>
+<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a0fe68422b3bb17ec8253d3ffffcadc2b" id="r_a0fe68422b3bb17ec8253d3ffffcadc2b"><td class="memItemLeft" align="right" valign="top"><a id="a0fe68422b3bb17ec8253d3ffffcadc2b" name="a0fe68422b3bb17ec8253d3ffffcadc2b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SPIDisplay</b> (const <a class="el" href="classSPIDisplayData.html">SPIDisplayData</a> &amp;data, <a class="el" href="classHeadQueue.html">HeadQueue</a> *<a class="el" href="classThreadProcess.html#a225120ad705b3b7cfbee52b9ed475dcc">queue</a>, const std::string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const ProcessID <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>, osPriority_t <a class="el" href="classProcess.html#a2ba7b74bcf121d22eee76ca6d588fb4b">priority</a>, rtos::Kernel::Clock::duration_u32 timeout)</td></tr>
+<tr class="separator:a0fe68422b3bb17ec8253d3ffffcadc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ddc0adaacf3b5861283d499b61f817" id="r_a36ddc0adaacf3b5861283d499b61f817"><td class="memItemLeft" align="right" valign="top"><a id="a36ddc0adaacf3b5861283d499b61f817" name="a36ddc0adaacf3b5861283d499b61f817"></a>
+<a class="el" href="classSPIDisplayData.html">SPIDisplayData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> ()</td></tr>
+<tr class="separator:a36ddc0adaacf3b5861283d499b61f817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classDisplay"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classDisplay')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classDisplay.html">Display</a></td></tr>
+<tr class="memitem:aad68304fba389671a3d6fbab9ff69f1c inherit pub_methods_classDisplay" id="r_aad68304fba389671a3d6fbab9ff69f1c"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>Display</b> (const <a class="el" href="structDisplayData.html">DisplayData</a> &amp;data, <a class="el" href="classHeadQueue.html">HeadQueue</a> *<a class="el" href="classThreadProcess.html#a225120ad705b3b7cfbee52b9ed475dcc">queue</a>, const std::string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const ProcessID <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>, osPriority_t <a class="el" href="classProcess.html#a2ba7b74bcf121d22eee76ca6d588fb4b">priority</a>, rtos::Kernel::Clock::duration_u32 timeout)</td></tr>
+<tr class="separator:aad68304fba389671a3d6fbab9ff69f1c inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8fed2602adff5cb0cc2e003e81c8c6 inherit pub_methods_classDisplay" id="r_a8e8fed2602adff5cb0cc2e003e81c8c6"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="classSize2D.html">Size2D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> ()</td></tr>
+<tr class="separator:a8e8fed2602adff5cb0cc2e003e81c8c6 inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f32b7896c80a1d741e8a4a0224446b0 inherit pub_methods_classDisplay" id="r_a0f32b7896c80a1d741e8a4a0224446b0"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setSize</b> (const <a class="el" href="classSize2D.html">Size2D</a> &amp;s)</td></tr>
+<tr class="separator:a0f32b7896c80a1d741e8a4a0224446b0 inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd8f2cc5e2e05f6c4e3f27f6e2e50d1 inherit pub_methods_classDisplay" id="r_a3cd8f2cc5e2e05f6c4e3f27f6e2e50d1"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="structPoint2D.html">Point2D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>cursor</b> ()</td></tr>
+<tr class="separator:a3cd8f2cc5e2e05f6c4e3f27f6e2e50d1 inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa947a85fa56019ed54422fdc494ccb44 inherit pub_methods_classDisplay" id="r_aa947a85fa56019ed54422fdc494ccb44"><td class="memItemLeft" align="right" valign="top">
+const Font *&#160;</td><td class="memItemRight" valign="bottom"><b>font</b> ()</td></tr>
+<tr class="separator:aa947a85fa56019ed54422fdc494ccb44 inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e27ee455fab59e32d12464d8fd7fdb7 inherit pub_methods_classDisplay" id="r_a5e27ee455fab59e32d12464d8fd7fdb7"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> (<a class="el" href="classArea2D.html">Area2D</a> &amp;area)</td></tr>
+<tr class="separator:a5e27ee455fab59e32d12464d8fd7fdb7 inherit pub_methods_classDisplay"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classThreadProcess"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classThreadProcess')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classThreadProcess.html">ThreadProcess</a></td></tr>
+<tr class="memitem:a4ff153ad36c69594d75cd381062b9d3f inherit pub_methods_classThreadProcess" id="r_a4ff153ad36c69594d75cd381062b9d3f"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>ThreadProcess</b> (<a class="el" href="classHeadQueue.html">HeadQueue</a> *<a class="el" href="classThreadProcess.html#a225120ad705b3b7cfbee52b9ed475dcc">queue</a>, const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const ProcessID <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>, osPriority <a class="el" href="classProcess.html#a2ba7b74bcf121d22eee76ca6d588fb4b">priority</a>, Kernel::Clock::duration_u32 <a class="el" href="classProcess.html#a771e1a129bd2317112bce0dbc6de7def">delay</a>)</td></tr>
+<tr class="separator:a4ff153ad36c69594d75cd381062b9d3f inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af992374f386d99a78c1ed4ee367f7dee inherit pub_methods_classThreadProcess" id="r_af992374f386d99a78c1ed4ee367f7dee"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>iAm</b> (<a class="el" href="classMessage.html">Message</a> *message)</td></tr>
+<tr class="memdesc:af992374f386d99a78c1ed4ee367f7dee inherit pub_methods_classThreadProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод проверки на свой/чужой <br /></td></tr>
+<tr class="separator:af992374f386d99a78c1ed4ee367f7dee inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225120ad705b3b7cfbee52b9ed475dcc inherit pub_methods_classThreadProcess" id="r_a225120ad705b3b7cfbee52b9ed475dcc"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="classHeadQueue.html">HeadQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>queue</b> ()</td></tr>
+<tr class="memdesc:a225120ad705b3b7cfbee52b9ed475dcc inherit pub_methods_classThreadProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий указатель на очередь <br /></td></tr>
+<tr class="separator:a225120ad705b3b7cfbee52b9ed475dcc inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64abd2776c5d8e28ce877630b9c85515 inherit pub_methods_classThreadProcess" id="r_a64abd2776c5d8e28ce877630b9c85515"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>sendMessage</b> (ProcessID dest, Command command, void *data)</td></tr>
+<tr class="memdesc:a64abd2776c5d8e28ce877630b9c85515 inherit pub_methods_classThreadProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">отправка сообщения обьекта-потока другому обьекту-потоку <br /></td></tr>
+<tr class="separator:a64abd2776c5d8e28ce877630b9c85515 inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24826fc1126e915efa8013d4e26867e inherit pub_methods_classThreadProcess" id="r_ad24826fc1126e915efa8013d4e26867e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadProcess.html#ad24826fc1126e915efa8013d4e26867e">exec</a> () override</td></tr>
+<tr class="memdesc:ad24826fc1126e915efa8013d4e26867e inherit pub_methods_classThreadProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод выполнения последовательности действий при работе обьекта в отдельном потоке  <br /></td></tr>
+<tr class="separator:ad24826fc1126e915efa8013d4e26867e inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d89305871af8fb3cbfa159d9a73c38 inherit pub_methods_classThreadProcess" id="r_a61d89305871af8fb3cbfa159d9a73c38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadProcess.html#a61d89305871af8fb3cbfa159d9a73c38">handle</a> (<a class="el" href="classMessage.html">Message</a> *message)</td></tr>
+<tr class="separator:a61d89305871af8fb3cbfa159d9a73c38 inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3727d227dbfe5e76ef4cb2a5173e3f2 inherit pub_methods_classThreadProcess" id="r_ae3727d227dbfe5e76ef4cb2a5173e3f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadProcess.html#ae3727d227dbfe5e76ef4cb2a5173e3f2">generate</a> ()</td></tr>
+<tr class="memdesc:ae3727d227dbfe5e76ef4cb2a5173e3f2 inherit pub_methods_classThreadProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">виртуальный метод выполнения последовательности действий по таймеру  <br /></td></tr>
+<tr class="separator:ae3727d227dbfe5e76ef4cb2a5173e3f2 inherit pub_methods_classThreadProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classProcess"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classProcess')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classProcess.html">Process</a></td></tr>
+<tr class="memitem:a8981ec5ac94ed2ec438405f5de49c38b inherit pub_methods_classProcess" id="r_a8981ec5ac94ed2ec438405f5de49c38b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a8981ec5ac94ed2ec438405f5de49c38b">Process</a> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const ProcessID <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>, osPriority <a class="el" href="classProcess.html#a2ba7b74bcf121d22eee76ca6d588fb4b">priority</a>, Kernel::Clock::duration_u32 <a class="el" href="classProcess.html#a771e1a129bd2317112bce0dbc6de7def">delay</a>)</td></tr>
+<tr class="separator:a8981ec5ac94ed2ec438405f5de49c38b inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17f636f88fd685ea6d005e613e30cf6 inherit pub_methods_classProcess" id="r_ab17f636f88fd685ea6d005e613e30cf6"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>match</b> (ProcessID <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>)</td></tr>
+<tr class="memdesc:ab17f636f88fd685ea6d005e613e30cf6 inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод проверяющий на совпадение идентификатор обьекта <br /></td></tr>
+<tr class="separator:ab17f636f88fd685ea6d005e613e30cf6 inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a4424413ea10fab23a831697230177 inherit pub_methods_classProcess" id="r_a01a4424413ea10fab23a831697230177"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setDelay</b> (Kernel::Clock::duration_u32 <a class="el" href="classProcess.html#a771e1a129bd2317112bce0dbc6de7def">delay</a>)</td></tr>
+<tr class="memdesc:a01a4424413ea10fab23a831697230177 inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод устанавливающий значение задержки <br /></td></tr>
+<tr class="separator:a01a4424413ea10fab23a831697230177 inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771e1a129bd2317112bce0dbc6de7def inherit pub_methods_classProcess" id="r_a771e1a129bd2317112bce0dbc6de7def"><td class="memItemLeft" align="right" valign="top">
+Kernel::Clock::duration_u32&#160;</td><td class="memItemRight" valign="bottom"><b>delay</b> ()</td></tr>
+<tr class="memdesc:a771e1a129bd2317112bce0dbc6de7def inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий значение задержки <br /></td></tr>
+<tr class="separator:a771e1a129bd2317112bce0dbc6de7def inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c88df51151f9db74d6c2d6f495de77d inherit pub_methods_classProcess" id="r_a0c88df51151f9db74d6c2d6f495de77d"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sleep</b> (Kernel::Clock::duration_u32 time)</td></tr>
+<tr class="memdesc:a0c88df51151f9db74d6c2d6f495de77d inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод приостановки работы на заданное время <br /></td></tr>
+<tr class="separator:a0c88df51151f9db74d6c2d6f495de77d inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ba7b74bcf121d22eee76ca6d588fb4b inherit pub_methods_classProcess" id="r_a2ba7b74bcf121d22eee76ca6d588fb4b"><td class="memItemLeft" align="right" valign="top">
+osPriority&#160;</td><td class="memItemRight" valign="bottom"><b>priority</b> ()</td></tr>
+<tr class="memdesc:a2ba7b74bcf121d22eee76ca6d588fb4b inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращает приоритет процесса <br /></td></tr>
+<tr class="separator:a2ba7b74bcf121d22eee76ca6d588fb4b inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90812588ae6ba6d70102dea922d9d852 inherit pub_methods_classProcess" id="r_a90812588ae6ba6d70102dea922d9d852"><td class="memItemLeft" align="right" valign="top">
+Timer &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>timer</b> ()</td></tr>
+<tr class="memdesc:a90812588ae6ba6d70102dea922d9d852 inherit pub_methods_classProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращает таймер процесса <br /></td></tr>
+<tr class="separator:a90812588ae6ba6d70102dea922d9d852 inherit pub_methods_classProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classObject')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classObject.html">Object</a></td></tr>
+<tr class="memitem:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject" id="r_a6cdad727c273beb8354d327b1604a700"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>Object</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const uint32_t <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>=NoID, <a class="el" href="classObject.html">Object</a> *<a class="el" href="classObject.html#aa16d3e952edc0d01935e338e2e785837">parent</a>=nullptr)</td></tr>
+<tr class="memdesc:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">const string &amp;name - ссылка на имя обьекта <br /></td></tr>
+<tr class="separator:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject" id="r_a6b8fc39c7613b32e5e25e549aaf293ad"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>)</td></tr>
+<tr class="memdesc:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод присваивания имени обьекту <br /></td></tr>
+<tr class="separator:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject" id="r_a4fef7056faa2e88aa30658e83acbdaf8"><td class="memItemLeft" align="right" valign="top">
+const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const</td></tr>
+<tr class="memdesc:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий текущее имя обьекта <br /></td></tr>
+<tr class="separator:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject" id="r_abee831f8e37a64b63b2241859931b3a4"><td class="memItemLeft" align="right" valign="top">
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> () const</td></tr>
+<tr class="memdesc:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий идентификационный номер обьекта <br /></td></tr>
+<tr class="separator:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject" id="r_aa16d3e952edc0d01935e338e2e785837"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parent</b> () const</td></tr>
+<tr class="memdesc:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий указатель на владельца <br /></td></tr>
+<tr class="separator:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classState')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classState.html">State</a></td></tr>
+<tr class="memitem:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState" id="r_a068101eca659c6f49b412676a2dece36"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> (Condition <a class="el" href="classState.html#a2e96bc38436b68f3510f9abc2296678e">condition</a>=Ready)</td></tr>
+<tr class="separator:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState" id="r_a2e96bc38436b68f3510f9abc2296678e"><td class="memItemLeft" align="right" valign="top">
+Condition&#160;</td><td class="memItemRight" valign="bottom"><b>condition</b> ()</td></tr>
+<tr class="memdesc:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий состояние <br /></td></tr>
+<tr class="separator:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState" id="r_a4eb9415403403590545998fd7406b8a8"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is</b> (size_t position)</td></tr>
+<tr class="memdesc:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод проверяющий состояние <br /></td></tr>
+<tr class="separator:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>src/Object/Process/ThreadProcess/Displays/SPIDisplay/<a class="el" href="SPIDisplay_8h_source.html">SPIDisplay.h</a></li>
+<li>src/Object/Process/ThreadProcess/Displays/SPIDisplay/<b>SPIDisplay.cpp</b></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

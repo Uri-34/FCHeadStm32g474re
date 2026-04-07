@@ -1,0 +1,15 @@
+<map id="I2CSensor" name="I2CSensor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,225,222,251"/>
+<area shape="rect" id="Node000005" href="$classBME280v33.html" title=" " alt="" coords="5,299,104,324"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,260,76,301,74,296,146,255"/>
+<area shape="rect" id="Node000006" href="$classLM73Sensor.html" title=" " alt="" coords="128,299,229,324"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="181,264,181,299,176,299,176,264"/>
+<area shape="rect" id="Node000007" href="$classVL53L3CXSensor.html" title=" " alt="" coords="253,299,384,324"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="215,254,297,296,295,301,212,259"/>
+<area shape="rect" id="Node000002" href="$classSensor.html" title=" " alt="" coords="145,152,212,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,191,181,225,176,225,176,191"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Класс для организации работы обьектов проекта" alt="" coords="147,79,211,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,118,181,152,176,152,176,118"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="151,5,207,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="181,44,181,79,176,79,176,44"/>
+</map>

@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Head: Класс TMC2209UARTEngine</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Head<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Прошивка для управления головкой</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="classTMC2209UARTEngine-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс TMC2209UARTEngine</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Граф наследования:TMC2209UARTEngine:</div>
+<div class="dyncontent">
+<div class="center"><img src="classTMC2209UARTEngine__inherit__graph.png" border="0" usemap="#aTMC2209UARTEngine_inherit__map" alt="Inheritance graph"/></div>
+<map name="aTMC2209UARTEngine_inherit__map" id="aTMC2209UARTEngine_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,519,168,544"/>
+<area shape="rect" href="classUARTStepDirEngine.html" title=" " alt="" coords="12,445,161,471"/>
+<area shape="poly" title=" " alt="" coords="89,484,89,519,84,519,84,484"/>
+<area shape="rect" href="classUARTEngine.html" title=" " alt="" coords="36,372,137,397"/>
+<area shape="poly" title=" " alt="" coords="89,411,89,445,84,445,84,411"/>
+<area shape="rect" href="classUARTDevice.html" title=" " alt="" coords="35,299,138,324"/>
+<area shape="poly" title=" " alt="" coords="89,338,89,372,84,372,84,338"/>
+<area shape="rect" href="classDevice.html" title=" " alt="" coords="53,225,120,251"/>
+<area shape="poly" title=" " alt="" coords="89,264,89,299,84,299,84,264"/>
+<area shape="rect" href="classObject.html" title="Базовый класс проекта" alt="" coords="55,152,119,177"/>
+<area shape="poly" title=" " alt="" coords="89,191,89,225,84,225,84,191"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="59,79,115,104"/>
+<area shape="poly" title=" " alt="" coords="89,118,89,152,84,152,84,118"/>
+<area shape="rect" title=" " alt="" coords="21,5,153,31"/>
+<area shape="poly" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса TMC2209UARTEngine:</div>
+<div class="dyncontent">
+<div class="center"><img src="classTMC2209UARTEngine__coll__graph.png" border="0" usemap="#aTMC2209UARTEngine_coll__map" alt="Collaboration graph"/></div>
+<map name="aTMC2209UARTEngine_coll__map" id="aTMC2209UARTEngine_coll__map">
+<area shape="rect" title=" " alt="" coords="69,541,231,567"/>
+<area shape="rect" href="classUARTStepDirEngine.html" title=" " alt="" coords="6,453,155,479"/>
+<area shape="poly" title=" " alt="" coords="101,488,142,539,138,542,97,491"/>
+<area shape="rect" href="classUARTEngine.html" title=" " alt="" coords="21,379,122,404"/>
+<area shape="poly" title=" " alt="" coords="77,418,82,453,77,453,72,418"/>
+<area shape="rect" href="classUARTDevice.html" title=" " alt="" coords="20,304,123,329"/>
+<area shape="poly" title=" " alt="" coords="74,344,74,378,69,378,69,344"/>
+<area shape="rect" href="classDevice.html" title=" " alt="" coords="38,229,105,255"/>
+<area shape="poly" title=" " alt="" coords="74,269,74,304,69,304,69,269"/>
+<area shape="rect" href="classObject.html" title="Базовый класс проекта" alt="" coords="39,155,103,180"/>
+<area shape="poly" title=" " alt="" coords="74,194,74,229,69,229,69,194"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,80,99,105"/>
+<area shape="poly" title=" " alt="" coords="74,120,74,154,69,154,69,120"/>
+<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" title=" " alt="" coords="74,45,74,80,69,80,69,45"/>
+<area shape="rect" href="classUARTBus.html" title=" " alt="" coords="184,453,265,479"/>
+<area shape="poly" title=" " alt="" coords="208,491,162,543,158,539,204,487"/>
+<area shape="rect" title=" " alt="" coords="147,379,305,404"/>
+<area shape="poly" title=" " alt="" coords="228,418,228,453,222,453,223,418"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a1d00e0caf922a641fc2ef3067000b013" id="r_a1d00e0caf922a641fc2ef3067000b013"><td class="memItemLeft" align="right" valign="top"><a id="a1d00e0caf922a641fc2ef3067000b013" name="a1d00e0caf922a641fc2ef3067000b013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TMC2209UARTEngine</b> (<a class="el" href="classUARTBus.html">UARTBus</a> *uart, const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const PinName &amp;pin, uint8_t address)</td></tr>
+<tr class="separator:a1d00e0caf922a641fc2ef3067000b013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936a2c001738fa88c6b50d961d0114fb" id="r_a936a2c001738fa88c6b50d961d0114fb"><td class="memItemLeft" align="right" valign="top"><a id="a936a2c001738fa88c6b50d961d0114fb" name="a936a2c001738fa88c6b50d961d0114fb"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>stallGuard</b> ()</td></tr>
+<tr class="separator:a936a2c001738fa88c6b50d961d0114fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classUARTStepDirEngine"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classUARTStepDirEngine')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classUARTStepDirEngine.html">UARTStepDirEngine</a></td></tr>
+<tr class="memitem:a00a2fb0f165ae0eeb885e87a416b3583 inherit pub_methods_classUARTStepDirEngine" id="r_a00a2fb0f165ae0eeb885e87a416b3583"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>UARTStepDirEngine</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const PinName &amp;pin, uint8_t address)</td></tr>
+<tr class="separator:a00a2fb0f165ae0eeb885e87a416b3583 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee06b9fe266417e3054c326646f71f77 inherit pub_methods_classUARTStepDirEngine" id="r_aee06b9fe266417e3054c326646f71f77"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>step</b> ()</td></tr>
+<tr class="separator:aee06b9fe266417e3054c326646f71f77 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8661f578fc14de1e213bdaf98b42348 inherit pub_methods_classUARTStepDirEngine" id="r_aa8661f578fc14de1e213bdaf98b42348"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>steps</b> (uint16_t stps)</td></tr>
+<tr class="separator:aa8661f578fc14de1e213bdaf98b42348 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c228fee114bd98408dd2dccd3fb8444 inherit pub_methods_classUARTStepDirEngine" id="r_a5c228fee114bd98408dd2dccd3fb8444"><td class="memItemLeft" align="right" valign="top">
+Direction&#160;</td><td class="memItemRight" valign="bottom"><b>direction</b> ()</td></tr>
+<tr class="separator:a5c228fee114bd98408dd2dccd3fb8444 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5728c3e13b6dad24c5e6d7210ccbc6c9 inherit pub_methods_classUARTStepDirEngine" id="r_a5728c3e13b6dad24c5e6d7210ccbc6c9"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setDirection</b> (const Direction dir)</td></tr>
+<tr class="separator:a5728c3e13b6dad24c5e6d7210ccbc6c9 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f34892786aded9019fe1b98c9fca0c4 inherit pub_methods_classUARTStepDirEngine" id="r_a8f34892786aded9019fe1b98c9fca0c4"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>crc</b> (uint8_t *data, size_t length)</td></tr>
+<tr class="separator:a8f34892786aded9019fe1b98c9fca0c4 inherit pub_methods_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classUARTEngine"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classUARTEngine')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classUARTEngine.html">UARTEngine</a></td></tr>
+<tr class="memitem:a888930790906cd8aad7d2f566fe9655c inherit pub_methods_classUARTEngine" id="r_a888930790906cd8aad7d2f566fe9655c"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>UARTEngine</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const PinName &amp;pin, uint8_t address)</td></tr>
+<tr class="separator:a888930790906cd8aad7d2f566fe9655c inherit pub_methods_classUARTEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classUARTDevice"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classUARTDevice')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classUARTDevice.html">UARTDevice</a></td></tr>
+<tr class="memitem:a7c9d4497a7eee1c56096126cd244cbe1 inherit pub_methods_classUARTDevice" id="r_a7c9d4497a7eee1c56096126cd244cbe1"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>UARTDevice</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const PinName &amp;pin, uint8_t address)</td></tr>
+<tr class="separator:a7c9d4497a7eee1c56096126cd244cbe1 inherit pub_methods_classUARTDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c7c686531e3917ae807680817ca474a inherit pub_methods_classUARTDevice" id="r_a4c7c686531e3917ae807680817ca474a"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>address</b> ()</td></tr>
+<tr class="separator:a4c7c686531e3917ae807680817ca474a inherit pub_methods_classUARTDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f86fccaadbdff383044337e3a9fdd71 inherit pub_methods_classUARTDevice" id="r_a4f86fccaadbdff383044337e3a9fdd71"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (uint8_t *data, int length)</td></tr>
+<tr class="separator:a4f86fccaadbdff383044337e3a9fdd71 inherit pub_methods_classUARTDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfea6345130eb84826f502b17139d703 inherit pub_methods_classUARTDevice" id="r_adfea6345130eb84826f502b17139d703"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (uint8_t *data, int length)</td></tr>
+<tr class="separator:adfea6345130eb84826f502b17139d703 inherit pub_methods_classUARTDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97fd71d525b92920baaf95b51d23733 inherit pub_methods_classUARTDevice" id="r_aa97fd71d525b92920baaf95b51d23733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUARTDevice.html#aa97fd71d525b92920baaf95b51d23733">ready</a> () override</td></tr>
+<tr class="separator:aa97fd71d525b92920baaf95b51d23733 inherit pub_methods_classUARTDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classDevice"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classDevice')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classDevice.html">Device</a></td></tr>
+<tr class="memitem:a7c20b64976c2a03202118232419e6de5 inherit pub_methods_classDevice" id="r_a7c20b64976c2a03202118232419e6de5"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>Device</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>)</td></tr>
+<tr class="separator:a7c20b64976c2a03202118232419e6de5 inherit pub_methods_classDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc04a71e1f686adf07310eec8002512 inherit pub_methods_classDevice" id="r_a9dc04a71e1f686adf07310eec8002512"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimeOut</b> (std::chrono::milliseconds timeOut)</td></tr>
+<tr class="separator:a9dc04a71e1f686adf07310eec8002512 inherit pub_methods_classDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbb119334512fbc7533c0ee0777242d inherit pub_methods_classDevice" id="r_a2dbb119334512fbc7533c0ee0777242d"><td class="memItemLeft" align="right" valign="top">
+std::chrono::milliseconds&#160;</td><td class="memItemRight" valign="bottom"><b>timeOut</b> ()</td></tr>
+<tr class="separator:a2dbb119334512fbc7533c0ee0777242d inherit pub_methods_classDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classObject')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classObject.html">Object</a></td></tr>
+<tr class="memitem:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject" id="r_a6cdad727c273beb8354d327b1604a700"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>Object</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const uint32_t <a class="el" href="classObject.html#abee831f8e37a64b63b2241859931b3a4">id</a>=NoID, <a class="el" href="classObject.html">Object</a> *<a class="el" href="classObject.html#aa16d3e952edc0d01935e338e2e785837">parent</a>=nullptr)</td></tr>
+<tr class="memdesc:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">const string &amp;name - ссылка на имя обьекта <br /></td></tr>
+<tr class="separator:a6cdad727c273beb8354d327b1604a700 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject" id="r_a6b8fc39c7613b32e5e25e549aaf293ad"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const string &amp;<a class="el" href="classObject.html#a4fef7056faa2e88aa30658e83acbdaf8">name</a>)</td></tr>
+<tr class="memdesc:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод присваивания имени обьекту <br /></td></tr>
+<tr class="separator:a6b8fc39c7613b32e5e25e549aaf293ad inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject" id="r_a4fef7056faa2e88aa30658e83acbdaf8"><td class="memItemLeft" align="right" valign="top">
+const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const</td></tr>
+<tr class="memdesc:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий текущее имя обьекта <br /></td></tr>
+<tr class="separator:a4fef7056faa2e88aa30658e83acbdaf8 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject" id="r_abee831f8e37a64b63b2241859931b3a4"><td class="memItemLeft" align="right" valign="top">
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> () const</td></tr>
+<tr class="memdesc:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий идентификационный номер обьекта <br /></td></tr>
+<tr class="separator:abee831f8e37a64b63b2241859931b3a4 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject" id="r_aa16d3e952edc0d01935e338e2e785837"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parent</b> () const</td></tr>
+<tr class="memdesc:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий указатель на владельца <br /></td></tr>
+<tr class="separator:aa16d3e952edc0d01935e338e2e785837 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classState')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classState.html">State</a></td></tr>
+<tr class="memitem:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState" id="r_a068101eca659c6f49b412676a2dece36"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> (Condition <a class="el" href="classState.html#a2e96bc38436b68f3510f9abc2296678e">condition</a>=Ready)</td></tr>
+<tr class="separator:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState" id="r_a2e96bc38436b68f3510f9abc2296678e"><td class="memItemLeft" align="right" valign="top">
+Condition&#160;</td><td class="memItemRight" valign="bottom"><b>condition</b> ()</td></tr>
+<tr class="memdesc:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий состояние <br /></td></tr>
+<tr class="separator:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState" id="r_a4eb9415403403590545998fd7406b8a8"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is</b> (size_t position)</td></tr>
+<tr class="memdesc:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод проверяющий состояние <br /></td></tr>
+<tr class="separator:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a714f27995eb8d7783aa8efaac8093c5e" id="r_a714f27995eb8d7783aa8efaac8093c5e"><td class="memItemLeft" align="right" valign="top"><a id="a714f27995eb8d7783aa8efaac8093c5e" name="a714f27995eb8d7783aa8efaac8093c5e"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>GCONF</b> = 0x00</td></tr>
+<tr class="separator:a714f27995eb8d7783aa8efaac8093c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5ca373d10be0828e25bb21adfb0c91" id="r_abc5ca373d10be0828e25bb21adfb0c91"><td class="memItemLeft" align="right" valign="top"><a id="abc5ca373d10be0828e25bb21adfb0c91" name="abc5ca373d10be0828e25bb21adfb0c91"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>GSTAT</b> = 0x04</td></tr>
+<tr class="separator:abc5ca373d10be0828e25bb21adfb0c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30091000e02bc7a99431804e1d38d6ab" id="r_a30091000e02bc7a99431804e1d38d6ab"><td class="memItemLeft" align="right" valign="top"><a id="a30091000e02bc7a99431804e1d38d6ab" name="a30091000e02bc7a99431804e1d38d6ab"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>IOIN</b> = 0x06</td></tr>
+<tr class="separator:a30091000e02bc7a99431804e1d38d6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac16e28ed477105489422d5f11136dc3b" id="r_ac16e28ed477105489422d5f11136dc3b"><td class="memItemLeft" align="right" valign="top"><a id="ac16e28ed477105489422d5f11136dc3b" name="ac16e28ed477105489422d5f11136dc3b"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>IHOLD_IRUN</b> = 0x0A</td></tr>
+<tr class="separator:ac16e28ed477105489422d5f11136dc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8409daff6c4ba20349f931a3b81b2267" id="r_a8409daff6c4ba20349f931a3b81b2267"><td class="memItemLeft" align="right" valign="top"><a id="a8409daff6c4ba20349f931a3b81b2267" name="a8409daff6c4ba20349f931a3b81b2267"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>TPOWERDOWN</b> = 0x10</td></tr>
+<tr class="separator:a8409daff6c4ba20349f931a3b81b2267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7079f3486c21da4b42bdbb9f6e55a5ca" id="r_a7079f3486c21da4b42bdbb9f6e55a5ca"><td class="memItemLeft" align="right" valign="top"><a id="a7079f3486c21da4b42bdbb9f6e55a5ca" name="a7079f3486c21da4b42bdbb9f6e55a5ca"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>TPWMTHRS</b> = 0x20</td></tr>
+<tr class="separator:a7079f3486c21da4b42bdbb9f6e55a5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21af86e9f8b7c8241143cd23422480ea" id="r_a21af86e9f8b7c8241143cd23422480ea"><td class="memItemLeft" align="right" valign="top"><a id="a21af86e9f8b7c8241143cd23422480ea" name="a21af86e9f8b7c8241143cd23422480ea"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>TCOOLTHRS</b> = 0x24</td></tr>
+<tr class="separator:a21af86e9f8b7c8241143cd23422480ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7179b8be7661e721f62fc5b553e1bae" id="r_ac7179b8be7661e721f62fc5b553e1bae"><td class="memItemLeft" align="right" valign="top"><a id="ac7179b8be7661e721f62fc5b553e1bae" name="ac7179b8be7661e721f62fc5b553e1bae"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>VACTUAL</b> = 0x2D</td></tr>
+<tr class="separator:ac7179b8be7661e721f62fc5b553e1bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa252658a44aa667e805f7a3ffe764cc" id="r_afa252658a44aa667e805f7a3ffe764cc"><td class="memItemLeft" align="right" valign="top"><a id="afa252658a44aa667e805f7a3ffe764cc" name="afa252658a44aa667e805f7a3ffe764cc"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SGTHRS</b> = 0x30</td></tr>
+<tr class="separator:afa252658a44aa667e805f7a3ffe764cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e29d0591bf75de80e6480a98d64372a" id="r_a4e29d0591bf75de80e6480a98d64372a"><td class="memItemLeft" align="right" valign="top"><a id="a4e29d0591bf75de80e6480a98d64372a" name="a4e29d0591bf75de80e6480a98d64372a"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SG_RESULT</b> = 0x31</td></tr>
+<tr class="separator:a4e29d0591bf75de80e6480a98d64372a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb08e2ab82520e4c44da97476c5ae13" id="r_affb08e2ab82520e4c44da97476c5ae13"><td class="memItemLeft" align="right" valign="top"><a id="affb08e2ab82520e4c44da97476c5ae13" name="affb08e2ab82520e4c44da97476c5ae13"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>COOLCONF</b> = 0x40</td></tr>
+<tr class="separator:affb08e2ab82520e4c44da97476c5ae13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6323145d3774397597c9fb40986cf3f" id="r_ac6323145d3774397597c9fb40986cf3f"><td class="memItemLeft" align="right" valign="top"><a id="ac6323145d3774397597c9fb40986cf3f" name="ac6323145d3774397597c9fb40986cf3f"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>MSCNT</b> = 0x6C</td></tr>
+<tr class="separator:ac6323145d3774397597c9fb40986cf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22c933c279e940a4dbc5202128cf627" id="r_ad22c933c279e940a4dbc5202128cf627"><td class="memItemLeft" align="right" valign="top"><a id="ad22c933c279e940a4dbc5202128cf627" name="ad22c933c279e940a4dbc5202128cf627"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>MSCURACT</b> = 0x6D</td></tr>
+<tr class="separator:ad22c933c279e940a4dbc5202128cf627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b029e9c971e2aa10cf107ee3b133a65" id="r_a4b029e9c971e2aa10cf107ee3b133a65"><td class="memItemLeft" align="right" valign="top"><a id="a4b029e9c971e2aa10cf107ee3b133a65" name="a4b029e9c971e2aa10cf107ee3b133a65"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>IFCNT</b> = 0x01</td></tr>
+<tr class="separator:a4b029e9c971e2aa10cf107ee3b133a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87975e7ed42a3c22a6538e4e9f92976" id="r_aa87975e7ed42a3c22a6538e4e9f92976"><td class="memItemLeft" align="right" valign="top"><a id="aa87975e7ed42a3c22a6538e4e9f92976" name="aa87975e7ed42a3c22a6538e4e9f92976"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SLAVECONF</b> = 0x02</td></tr>
+<tr class="separator:aa87975e7ed42a3c22a6538e4e9f92976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad114d68c5e8ab38df878b5273746cbf9" id="r_ad114d68c5e8ab38df878b5273746cbf9"><td class="memItemLeft" align="right" valign="top"><a id="ad114d68c5e8ab38df878b5273746cbf9" name="ad114d68c5e8ab38df878b5273746cbf9"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>OTP_PROG</b> = 0x03</td></tr>
+<tr class="separator:ad114d68c5e8ab38df878b5273746cbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012c538460a5414a9e0e1ae641f600fb" id="r_a012c538460a5414a9e0e1ae641f600fb"><td class="memItemLeft" align="right" valign="top"><a id="a012c538460a5414a9e0e1ae641f600fb" name="a012c538460a5414a9e0e1ae641f600fb"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>OTP_READ</b> = 0x05</td></tr>
+<tr class="separator:a012c538460a5414a9e0e1ae641f600fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925e6fe8a48ffdd558ab1725fe8fe556" id="r_a925e6fe8a48ffdd558ab1725fe8fe556"><td class="memItemLeft" align="right" valign="top"><a id="a925e6fe8a48ffdd558ab1725fe8fe556" name="a925e6fe8a48ffdd558ab1725fe8fe556"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FACTORY_CONF</b> = 0x07</td></tr>
+<tr class="separator:a925e6fe8a48ffdd558ab1725fe8fe556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7997188f8442cc4a5fd277d11ac052" id="r_a3b7997188f8442cc4a5fd277d11ac052"><td class="memItemLeft" align="right" valign="top"><a id="a3b7997188f8442cc4a5fd277d11ac052" name="a3b7997188f8442cc4a5fd277d11ac052"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>DRV_STATUS</b> = 0x0B</td></tr>
+<tr class="separator:a3b7997188f8442cc4a5fd277d11ac052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5604f465c47b10beff207484685962" id="r_aac5604f465c47b10beff207484685962"><td class="memItemLeft" align="right" valign="top"><a id="aac5604f465c47b10beff207484685962" name="aac5604f465c47b10beff207484685962"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>PWM_SCALE</b> = 0x0C</td></tr>
+<tr class="separator:aac5604f465c47b10beff207484685962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c88ab5b41e5004a68769cc4f003840c" id="r_a9c88ab5b41e5004a68769cc4f003840c"><td class="memItemLeft" align="right" valign="top"><a id="a9c88ab5b41e5004a68769cc4f003840c" name="a9c88ab5b41e5004a68769cc4f003840c"></a>
+const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>LOST_STEPS</b> = 0x0E</td></tr>
+<tr class="separator:a9c88ab5b41e5004a68769cc4f003840c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ffde52a602d91d83022cc0ce8f4c22" id="r_a92ffde52a602d91d83022cc0ce8f4c22"><td class="memItemLeft" align="right" valign="top"><a id="a92ffde52a602d91d83022cc0ce8f4c22" name="a92ffde52a602d91d83022cc0ce8f4c22"></a>
+<a class="el" href="classUARTBus.html">UARTBus</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_uart</b> = nullptr</td></tr>
+<tr class="separator:a92ffde52a602d91d83022cc0ce8f4c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pub_types_classUARTStepDirEngine"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classUARTStepDirEngine')"><img src="closed.png" alt="-"/>&#160;Открытые типы унаследованные от <a class="el" href="classUARTStepDirEngine.html">UARTStepDirEngine</a></td></tr>
+<tr class="memitem:a8b3b26878dce6562edcc499d14c09680 inherit pub_types_classUARTStepDirEngine" id="r_a8b3b26878dce6562edcc499d14c09680"><td class="memItemLeft" align="right" valign="top"><a id="a8b3b26878dce6562edcc499d14c09680" name="a8b3b26878dce6562edcc499d14c09680"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Direction</b> { <b>CounterClockwise</b>
+, <b>Clockwise</b>
+ }</td></tr>
+<tr class="separator:a8b3b26878dce6562edcc499d14c09680 inherit pub_types_classUARTStepDirEngine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>src/Head/Device/UARTDevice/UARTEngine/UARTStepDirEngine/TMC2209UARTEngine/<a class="el" href="TMC2209UARTEngine_8h_source.html">TMC2209UARTEngine.h</a></li>
+<li>src/Head/Device/UARTDevice/UARTEngine/UARTStepDirEngine/TMC2209UARTEngine/<b>TMC2209UARTEngine.cpp</b></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

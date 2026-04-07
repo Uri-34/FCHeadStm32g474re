@@ -1,0 +1,25 @@
+<map id="QueueProcess" name="QueueProcess">
+<area shape="rect" id="Node000001" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="246,299,361,324"/>
+<area shape="rect" id="Node000006" href="$classConditioner.html" title=" " alt="" coords="5,372,103,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="251,330,95,374,94,369,249,325"/>
+<area shape="rect" id="Node000007" href="$classDisplay.html" title=" " alt="" coords="127,372,197,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="270,332,186,374,184,369,267,328"/>
+<area shape="rect" id="Node000009" href="$classHead.html" title="класс для организации совместной работы всех компонентов головки" alt="" coords="222,372,278,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="289,337,261,373,257,370,284,333"/>
+<area shape="rect" id="Node000010" href="$classLaserScanner.html" title=" " alt="" coords="302,372,411,397"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="322,333,350,370,346,373,318,337"/>
+<area shape="rect" id="Node000011" href="$classLedIndicator.html" title=" " alt="" coords="436,372,539,397"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="347,326,458,369,456,374,345,331"/>
+<area shape="rect" id="Node000012" href="$classMixer.html" title=" " alt="" coords="563,372,622,397"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="367,325,552,369,564,372,562,378,551,375,366,330"/>
+<area shape="rect" id="Node000002" href="$classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="267,225,339,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,264,306,299,301,299,301,264"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Базовый класс проекта" alt="" coords="271,152,335,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,191,306,225,301,225,301,191"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="275,79,331,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="306,118,306,152,301,152,301,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="237,5,369,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="306,44,306,79,301,79,301,44"/>
+<area shape="rect" id="Node000008" href="$classST7789v3.html" title=" " alt="" coords="119,445,205,471"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="165,411,165,445,159,445,159,411"/>
+</map>

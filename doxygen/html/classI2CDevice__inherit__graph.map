@@ -1,0 +1,33 @@
+<map id="I2CDevice" name="I2CDevice">
+<area shape="rect" id="Node000001" title=" " alt="" coords="324,299,412,324"/>
+<area shape="rect" id="Node000006" href="$classBME280v33.html" title=" " alt="" coords="5,372,104,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="311,328,105,375,104,370,310,323"/>
+<area shape="rect" id="Node000007" href="$classI2CEngine.html" title=" " alt="" coords="129,372,215,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="325,331,205,374,203,369,323,326"/>
+<area shape="rect" id="Node000012" href="$classI2CFan.html" title="Класс для организации работы обьекта вентилятора работающего по I2C интерфейсу" alt="" coords="239,372,305,397"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="343,334,289,374,286,370,340,330"/>
+<area shape="rect" id="Node000013" href="$classI2CLM73.html" title=" " alt="" coords="329,372,407,397"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="371,338,371,372,365,372,365,338"/>
+<area shape="rect" id="Node000014" href="$classI2CPiezoPump.html" title=" " alt="" coords="432,372,547,397"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="401,329,471,369,468,374,398,333"/>
+<area shape="rect" id="Node000015" href="$classI2CWeMosMotorShield.html" title=" " alt="" coords="571,372,739,397"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="426,324,609,369,608,375,425,329"/>
+<area shape="rect" id="Node000016" href="$classVL53L3CXI2C.html" title=" " alt="" coords="763,372,871,397"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="426,319,751,369,764,371,763,377,750,375,425,324"/>
+<area shape="rect" id="Node000002" href="$classDevice.html" title=" " alt="" coords="335,225,401,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="371,264,371,299,365,299,365,264"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Базовый класс проекта" alt="" coords="336,152,400,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,191,371,225,365,225,365,191"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="340,79,396,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="371,118,371,152,365,152,365,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="302,5,434,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="371,44,371,79,365,79,365,44"/>
+<area shape="rect" id="Node000008" href="$classI2CStepDirEngine.html" title=" " alt="" coords="105,445,239,471"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="175,411,175,445,169,445,169,411"/>
+<area shape="rect" id="Node000009" href="$classTMC2209I2CEngine.html" title=" " alt="" coords="98,519,246,544"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="175,484,175,519,169,519,169,484"/>
+<area shape="rect" id="Node000010" href="$classBlender.html" title=" " alt="" coords="75,592,147,617"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="155,556,123,594,119,590,151,553"/>
+<area shape="rect" id="Node000011" href="$classPerelstaticPump.html" title=" " alt="" coords="171,592,299,617"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="193,553,227,590,223,594,189,556"/>
+</map>

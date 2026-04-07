@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Head: Класс Object</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Head<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Прошивка для управления головкой</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classObject-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс Object</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Базовый класс проекта  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Object_8h_source.html">Object.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="classObject__inherit__graph.png" border="0" usemap="#aObject_inherit__map" alt="Inheritance graph"/></div>
+<map name="aObject_inherit__map" id="aObject_inherit__map">
+<area shape="rect" title="Базовый класс проекта" alt="" coords="289,524,353,549"/>
+<area shape="rect" href="classDevice.html" title=" " alt="" coords="420,376,487,401"/>
+<area shape="poly" title=" " alt="" coords="341,512,439,400,443,403,345,515"/>
+<area shape="rect" href="classDriver.html" title=" " alt="" coords="422,499,485,524"/>
+<area shape="poly" title=" " alt="" coords="367,525,421,515,422,520,368,531"/>
+<area shape="rect" href="classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="417,548,489,573"/>
+<area shape="poly" title=" " alt="" coords="368,542,417,552,416,557,367,548"/>
+<area shape="rect" href="classVisualObject.html" title=" " alt="" coords="401,645,505,671"/>
+<area shape="poly" title=" " alt="" coords="348,557,440,643,436,647,344,561"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="185,524,241,549"/>
+<area shape="poly" title=" " alt="" coords="255,534,289,534,289,539,255,539"/>
+<area shape="rect" title=" " alt="" coords="5,524,137,549"/>
+<area shape="poly" title=" " alt="" coords="151,534,185,534,185,539,151,539"/>
+<area shape="rect" href="classCANDevice.html" title=" " alt="" coords="565,153,659,179"/>
+<area shape="poly" title=" " alt="" coords="459,362,471,324,490,278,516,230,552,188,568,177,571,181,555,192,521,233,495,280,476,326,464,363"/>
+<area shape="rect" href="classI2CDevice.html" title=" " alt="" coords="568,203,656,228"/>
+<area shape="poly" title=" " alt="" coords="474,364,597,226,601,230,478,367"/>
+<area shape="rect" href="classPwmDevice.html" title=" " alt="" coords="563,351,661,376"/>
+<area shape="poly" title=" " alt="" coords="500,379,562,369,563,374,501,384"/>
+<area shape="rect" href="classSPIDevice.html" title=" " alt="" coords="569,400,655,425"/>
+<area shape="poly" title=" " alt="" coords="501,393,569,404,568,409,500,398"/>
+<area shape="rect" href="classUARTDevice.html" title=" " alt="" coords="561,449,663,475"/>
+<area shape="poly" title=" " alt="" coords="492,405,554,436,580,447,578,452,552,440,490,410"/>
+<area shape="rect" href="classBME280v33.html" title=" " alt="" coords="753,5,852,31"/>
+<area shape="poly" title=" " alt="" coords="664,193,669,188,682,170,688,151,691,115,694,78,702,59,717,40,733,28,752,21,754,26,736,33,720,44,707,61,699,79,696,115,693,153,686,172,673,192,667,197"/>
+<area shape="rect" href="classI2CEngine.html" title=" " alt="" coords="759,55,846,80"/>
+<area shape="poly" title=" " alt="" coords="663,193,669,188,685,164,691,139,698,114,717,89,737,77,758,70,760,75,739,82,720,93,703,116,696,140,690,166,673,192,666,197"/>
+<area shape="rect" href="classI2CFan.html" title="Класс для организации работы обьекта вентилятора работающего по I2C интерфейсу" alt="" coords="770,104,835,129"/>
+<area shape="poly" title=" " alt="" coords="659,194,669,188,683,175,692,163,702,151,717,138,743,127,769,119,771,124,745,132,720,143,706,154,696,166,687,179,672,192,661,199"/>
+<area shape="rect" href="classI2CLM73.html" title=" " alt="" coords="763,153,842,179"/>
+<area shape="poly" title=" " alt="" coords="669,198,762,174,764,179,670,203"/>
+<area shape="rect" href="classI2CPiezoPump.html" title=" " alt="" coords="745,203,860,228"/>
+<area shape="poly" title=" " alt="" coords="670,213,745,213,745,218,670,218"/>
+<area shape="rect" href="classI2CWeMosMotorShield.html" title=" " alt="" coords="719,252,887,277"/>
+<area shape="poly" title=" " alt="" coords="670,227,753,249,752,255,669,233"/>
+<area shape="rect" href="classVL53L3CXI2C.html" title=" " alt="" coords="749,301,857,327"/>
+<area shape="poly" title=" " alt="" coords="641,235,677,261,720,286,752,299,750,304,718,291,674,266,638,239"/>
+<area shape="rect" href="classI2CStepDirEngine.html" title=" " alt="" coords="942,55,1077,80"/>
+<area shape="poly" title=" " alt="" coords="860,65,942,65,942,70,860,70"/>
+<area shape="rect" href="classTMC2209I2CEngine.html" title=" " alt="" coords="1139,55,1287,80"/>
+<area shape="poly" title=" " alt="" coords="1091,65,1139,65,1139,70,1091,70"/>
+<area shape="rect" href="classBlender.html" title=" " alt="" coords="1371,31,1443,56"/>
+<area shape="poly" title=" " alt="" coords="1301,54,1370,45,1371,50,1302,59"/>
+<area shape="rect" href="classPerelstaticPump.html" title=" " alt="" coords="1343,80,1471,105"/>
+<area shape="poly" title=" " alt="" coords="1301,76,1343,82,1342,87,1301,81"/>
+<area shape="rect" href="classPwmFan.html" title="Класс для организации работы обьекта PWM вентилятора" alt="" coords="765,351,841,376"/>
+<area shape="poly" title=" " alt="" coords="675,361,764,361,764,366,675,366"/>
+<area shape="rect" href="classPwmPiezoPump.html" title=" " alt="" coords="739,400,866,425"/>
+<area shape="poly" title=" " alt="" coords="676,377,753,397,752,402,674,382"/>
+<area shape="rect" href="classUARTEngine.html" title=" " alt="" coords="752,449,853,475"/>
+<area shape="poly" title=" " alt="" coords="677,459,751,459,751,465,677,465"/>
+<area shape="rect" href="classUARTStepDirEngine.html" title=" " alt="" coords="935,449,1084,475"/>
+<area shape="poly" title=" " alt="" coords="867,459,934,459,934,465,867,465"/>
+<area shape="rect" href="classTMC2209UARTEngine.html" title=" " alt="" coords="1132,449,1295,475"/>
+<area shape="poly" title=" " alt="" coords="1098,459,1132,459,1132,465,1098,465"/>
+<area shape="rect" href="classHead.html" title="класс для организации совместной работы всех компонентов головки" alt="" coords="584,523,640,548"/>
+<area shape="poly" title=" " alt="" coords="503,550,583,537,584,542,503,555"/>
+<area shape="rect" href="classThreadProcess.html" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="553,572,671,597"/>
+<area shape="poly" title=" " alt="" coords="503,565,554,573,553,578,503,571"/>
+<area shape="rect" href="classConditioner.html" title=" " alt="" coords="754,499,851,524"/>
+<area shape="poly" title=" " alt="" coords="656,564,670,558,718,534,754,522,756,527,720,539,672,563,659,569"/>
+<area shape="rect" href="classDisplay.html" title=" " alt="" coords="767,548,838,573"/>
+<area shape="poly" title=" " alt="" coords="684,573,767,562,768,568,684,578"/>
+<area shape="rect" href="classLaserScanner.html" title=" " alt="" coords="748,597,857,623"/>
+<area shape="poly" title=" " alt="" coords="685,592,748,600,747,605,684,597"/>
+<area shape="rect" href="classLedIndicator.html" title=" " alt="" coords="751,647,854,672"/>
+<area shape="poly" title=" " alt="" coords="657,601,672,608,720,633,752,644,751,649,718,638,669,612,655,605"/>
+<area shape="rect" href="classMixer.html" title=" " alt="" coords="773,696,832,721"/>
+<area shape="poly" title=" " alt="" coords="665,602,673,608,689,628,697,647,704,665,720,683,746,696,774,703,772,708,744,701,717,687,700,668,692,649,684,631,669,612,662,606"/>
+<area shape="rect" href="classSPIDisplay.html" title=" " alt="" coords="964,548,1055,573"/>
+<area shape="poly" title=" " alt="" coords="852,558,964,558,964,563,852,563"/>
+<area shape="rect" href="classGMT147SPI.html" title=" " alt="" coords="1165,548,1261,573"/>
+<area shape="poly" title=" " alt="" coords="1068,558,1165,558,1165,563,1068,563"/>
+<area shape="rect" href="classImage.html" title=" " alt="" coords="581,621,643,647"/>
+<area shape="poly" title=" " alt="" coords="519,645,580,636,581,641,520,651"/>
+<area shape="rect" href="classText.html" title=" " alt="" coords="587,671,637,696"/>
+<area shape="poly" title=" " alt="" coords="520,666,587,677,587,682,519,671"/>
+<area shape="rect" href="classWindow.html" title=" " alt="" coords="575,720,649,745"/>
+<area shape="poly" title=" " alt="" coords="492,675,554,706,580,717,578,722,552,711,489,680"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="classObject__coll__graph.png" border="0" usemap="#aObject_coll__map" alt="Collaboration graph"/></div>
+<map name="aObject_coll__map" id="aObject_coll__map">
+<area shape="rect" title="Базовый класс проекта" alt="" coords="39,152,103,177"/>
+<area shape="rect" href="classState.html" title="Класс состояния обьекта проекта" alt="" coords="43,79,99,104"/>
+<area shape="poly" title=" " alt="" coords="74,118,74,152,69,152,69,118"/>
+<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a6cdad727c273beb8354d327b1604a700" id="r_a6cdad727c273beb8354d327b1604a700"><td class="memItemLeft" align="right" valign="top"><a id="a6cdad727c273beb8354d327b1604a700" name="a6cdad727c273beb8354d327b1604a700"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Object</b> (const string &amp;<a class="el" href="#a4fef7056faa2e88aa30658e83acbdaf8">name</a>, const uint32_t <a class="el" href="#abee831f8e37a64b63b2241859931b3a4">id</a>=NoID, <a class="el" href="classObject.html">Object</a> *<a class="el" href="#aa16d3e952edc0d01935e338e2e785837">parent</a>=nullptr)</td></tr>
+<tr class="memdesc:a6cdad727c273beb8354d327b1604a700"><td class="mdescLeft">&#160;</td><td class="mdescRight">const string &amp;name - ссылка на имя обьекта <br /></td></tr>
+<tr class="separator:a6cdad727c273beb8354d327b1604a700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8fc39c7613b32e5e25e549aaf293ad" id="r_a6b8fc39c7613b32e5e25e549aaf293ad"><td class="memItemLeft" align="right" valign="top"><a id="a6b8fc39c7613b32e5e25e549aaf293ad" name="a6b8fc39c7613b32e5e25e549aaf293ad"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const string &amp;<a class="el" href="#a4fef7056faa2e88aa30658e83acbdaf8">name</a>)</td></tr>
+<tr class="memdesc:a6b8fc39c7613b32e5e25e549aaf293ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод присваивания имени обьекту <br /></td></tr>
+<tr class="separator:a6b8fc39c7613b32e5e25e549aaf293ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fef7056faa2e88aa30658e83acbdaf8" id="r_a4fef7056faa2e88aa30658e83acbdaf8"><td class="memItemLeft" align="right" valign="top"><a id="a4fef7056faa2e88aa30658e83acbdaf8" name="a4fef7056faa2e88aa30658e83acbdaf8"></a>
+const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const</td></tr>
+<tr class="memdesc:a4fef7056faa2e88aa30658e83acbdaf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий текущее имя обьекта <br /></td></tr>
+<tr class="separator:a4fef7056faa2e88aa30658e83acbdaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee831f8e37a64b63b2241859931b3a4" id="r_abee831f8e37a64b63b2241859931b3a4"><td class="memItemLeft" align="right" valign="top"><a id="abee831f8e37a64b63b2241859931b3a4" name="abee831f8e37a64b63b2241859931b3a4"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> () const</td></tr>
+<tr class="memdesc:abee831f8e37a64b63b2241859931b3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий идентификационный номер обьекта <br /></td></tr>
+<tr class="separator:abee831f8e37a64b63b2241859931b3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16d3e952edc0d01935e338e2e785837" id="r_aa16d3e952edc0d01935e338e2e785837"><td class="memItemLeft" align="right" valign="top"><a id="aa16d3e952edc0d01935e338e2e785837" name="aa16d3e952edc0d01935e338e2e785837"></a>
+<a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parent</b> () const</td></tr>
+<tr class="memdesc:aa16d3e952edc0d01935e338e2e785837"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий указатель на владельца <br /></td></tr>
+<tr class="separator:aa16d3e952edc0d01935e338e2e785837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classState')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classState.html">State</a></td></tr>
+<tr class="memitem:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState" id="r_a068101eca659c6f49b412676a2dece36"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> (Condition <a class="el" href="classState.html#a2e96bc38436b68f3510f9abc2296678e">condition</a>=Ready)</td></tr>
+<tr class="separator:a068101eca659c6f49b412676a2dece36 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState" id="r_a2e96bc38436b68f3510f9abc2296678e"><td class="memItemLeft" align="right" valign="top">
+Condition&#160;</td><td class="memItemRight" valign="bottom"><b>condition</b> ()</td></tr>
+<tr class="memdesc:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод возвращающий состояние <br /></td></tr>
+<tr class="separator:a2e96bc38436b68f3510f9abc2296678e inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState" id="r_a4eb9415403403590545998fd7406b8a8"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is</b> (size_t position)</td></tr>
+<tr class="memdesc:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="mdescLeft">&#160;</td><td class="mdescRight">метод проверяющий состояние <br /></td></tr>
+<tr class="separator:a4eb9415403403590545998fd7406b8a8 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс проекта </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">const</td><td>string &amp;name - приватное имя обьекта </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>src/Object/<a class="el" href="Object_8h_source.html">Object.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

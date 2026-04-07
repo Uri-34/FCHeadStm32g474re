@@ -1,0 +1,7 @@
+<map id="Area2D" name="Area2D">
+<area shape="rect" id="Node000001" title=" " alt="" coords="53,93,124,119"/>
+<area shape="rect" id="Node000002" href="$structPoint2D.html" title="тип Point2D" alt="" coords="5,5,79,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,43,64,68,81,91,76,94,60,71,48,45"/>
+<area shape="rect" id="Node000003" href="$structSize2D.html" title="тип Size2D" alt="" coords="103,5,170,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,44,98,94,93,91,121,41"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="src/Head/Sensors/I2CSensors" name="src/Head/Sensors/I2CSensors">
+<area shape="rect" id="node2" href="dir_75588c08c9b82fff324a55c17a17ce0a.html" title="BME280v33" alt="" coords="317,63,416,88"/>
+<area shape="rect" id="node3" href="dir_109e14072a329190fa661dd05f759671.html" title="DistanceSensors" alt="" coords="163,63,293,88"/>
+<area shape="rect" id="node4" href="dir_9900808794539b4318b37079216658b2.html" title="LM73Sensor" alt="" coords="37,63,139,88"/>
+<area shape="rect" id="clust2" href="dir_53f7bd82f406bc9cd56a459aab793273.html" alt="" coords="27,52,547,99"/>
+<area shape="rect" id="clust1" href="dir_31c389af7de60e6d7f00c2d4f08ab622.html" title="Sensors" alt="" coords="16,16,557,109"/>
+</map>

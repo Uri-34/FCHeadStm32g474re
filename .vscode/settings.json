@@ -1,0 +1,17 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "mstd_atomic": "cpp",
+        "*.inc": "cpp",
+        "mstd_cstddef": "cpp",
+        "mstd_iterator": "cpp",
+        "mstd_tuple": "cpp",
+        "icongpt.h": "c",
+        "mstd_mutex": "cpp",
+        "mstd_functional": "cpp",
+        "mstd_memory": "cpp",
+        "mstd_new": "cpp",
+        "mstd_type_traits": "cpp",
+        "mstd_utility": "cpp"
+    }
+}

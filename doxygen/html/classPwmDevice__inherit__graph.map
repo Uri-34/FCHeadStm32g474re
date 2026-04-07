@@ -1,0 +1,15 @@
+<map id="PwmDevice" name="PwmDevice">
+<area shape="rect" id="Node000001" title=" " alt="" coords="57,299,155,324"/>
+<area shape="rect" id="Node000006" href="$classPwmFan.html" title="Класс для организации работы обьекта PWM вентилятора" alt="" coords="5,372,81,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="89,336,55,374,51,370,85,333"/>
+<area shape="rect" id="Node000007" href="$classPwmPiezoPump.html" title=" " alt="" coords="105,372,232,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,333,161,370,157,374,123,336"/>
+<area shape="rect" id="Node000002" href="$classDevice.html" title=" " alt="" coords="73,225,139,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,264,109,299,103,299,103,264"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Базовый класс проекта" alt="" coords="74,152,138,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,191,109,225,103,225,103,191"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="78,79,134,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,118,109,152,103,152,103,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="40,5,172,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+</map>

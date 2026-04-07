@@ -1,0 +1,25 @@
+<map id="ThreadProcess" name="ThreadProcess">
+<area shape="rect" id="Node000001" title="Класс для организации работы обьектов в отдельных потоках с опросом очереди" alt="" coords="218,299,335,324"/>
+<area shape="rect" id="Node000006" href="$classConditioner.html" title=" " alt="" coords="5,372,103,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="229,331,91,374,89,369,227,326"/>
+<area shape="rect" id="Node000007" href="$classDisplay.html" title=" " alt="" coords="127,372,197,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="248,333,182,374,179,370,245,329"/>
+<area shape="rect" id="Node000010" href="$classLaserScanner.html" title=" " alt="" coords="222,372,331,397"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="279,338,279,372,274,372,274,338"/>
+<area shape="rect" id="Node000011" href="$classLedIndicator.html" title=" " alt="" coords="356,372,459,397"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="311,328,387,369,385,374,309,333"/>
+<area shape="rect" id="Node000012" href="$classMixer.html" title=" " alt="" coords="483,372,542,397"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="329,325,484,372,482,377,327,331"/>
+<area shape="rect" id="Node000002" href="$classProcess.html" title="Класс для организации работы обьектов в отдельных потоках" alt="" coords="241,225,313,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,264,279,299,274,299,274,264"/>
+<area shape="rect" id="Node000003" href="$classObject.html" title="Базовый класс проекта" alt="" coords="245,152,309,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,191,279,225,274,225,274,191"/>
+<area shape="rect" id="Node000004" href="$classState.html" title="Класс состояния обьекта проекта" alt="" coords="249,79,305,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="279,118,279,152,274,152,274,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,343,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="279,44,279,79,274,79,274,44"/>
+<area shape="rect" id="Node000008" href="$classSPIDisplay.html" title=" " alt="" coords="117,445,207,471"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="165,411,165,445,159,445,159,411"/>
+<area shape="rect" id="Node000009" href="$classGMT147SPI.html" title=" " alt="" coords="114,519,210,544"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="165,484,165,519,159,519,159,484"/>
+</map>
