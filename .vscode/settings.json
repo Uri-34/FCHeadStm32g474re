@@ -13,5 +13,6 @@
         "mstd_new": "cpp",
         "mstd_type_traits": "cpp",
         "mstd_utility": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/u34/Рабочий стол/work/FCHead-Stm32g474re/mbed-os"
 }

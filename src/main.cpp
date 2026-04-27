@@ -1,4 +1,4 @@
-#include "Head.h"
+#include "FCHead.h"
 
 int main() 
 {
@@ -9,7 +9,7 @@ int main()
 
     // mbed::Channel<int, 4> channel;
 
-    Head _head;
+    FCHead _head;
          _head.exec();
 
     return 0;
