@@ -3,7 +3,8 @@
 
 #include "mbed.h"
 
-class CANBus : public mbed::CAN
+class CANBus 
+    : public mbed::CAN
 {
 private:
 

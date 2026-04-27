@@ -1,9 +1,9 @@
 #ifndef THREAD_PROCESS_H
 #define THREAD_PROCESS_H
 
-#include "Object/Process/Process.h"
-#include "Object/ProcessID.h"
-#include "Object/HeadQueue/HeadQueue.h"
+#include "Process.h"
+#include "ProcessID.h"
+#include "HeadQueue.h"
 
 /*!
 	\brief Класс для организации работы обьектов в отдельных потоках с опросом очереди

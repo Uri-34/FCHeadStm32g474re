@@ -1,8 +1,8 @@
 #ifndef PROCESS_H
 #define PROCESS_H
 
-#include "Object/Object.h"
-#include "Object/ProcessID.h"
+#include "Object.h"
+#include "ProcessID.h"
 
 /*!
 	\brief Класс для организации работы обьектов в отдельных потоках

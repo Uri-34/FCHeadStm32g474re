@@ -1,15 +1,15 @@
-#include "Head/Head.h"
+#include "Head.h"
 
 #include "mbed.h"
 
-#include "Object/Process/Process.h"
+#include "Process.h"
 
-#include "Object/Process/ThreadProcess/Conditioner/Conditioner.h"
-#include "Object/Process/ThreadProcess/SPIDisplay/GMT147SPI/GMT147SPI.h"
-#include "Object/Process/ThreadProcess/LaserScaner/LaserScaner.h"
-#include "Object/Process/ThreadProcess/LedIndicator/LedIndicator.h"
-#include "Object/Process/ThreadProcess/Mixer/Mixer.h"
-#include "Common/Common.h"
+#include "Conditioner.h"
+//#include "Object/Process/ThreadProcess/SPIDisplay/GMT147SPI/GMT147SPI.h"
+#include "LaserScaner.h"
+#include "LedIndicator.h"
+#include "Mixer.h"
+#include "Common.h"
 
 Head::Head() 
     : Process("Головка:", HeadID, osPriorityNormal, 1000ms)
@@ -19,10 +19,10 @@ Head::Head()
     _i2c.frequency(I2C_FREQUENCY);
 
     // устанавливаем частоту SPI интерфейса...
-    _spi.frequency(SPI_FREQUENCY); // 40 МГц
+//    _spi.frequency(SPI_FREQUENCY); // 40 МГц
     
     // устанавливаем частоту UART интерфейса...
-    _uart.set_baud(UART_BAUDRATE);
+//    _uart.set_baud(UART_BAUDRATE);
 
     // устанавливаем частоту CAN интерфейса...
     _can.frequency(CAN_FREQUENCY);
@@ -33,7 +33,7 @@ Head::Head()
     // ...
     
     // работают с опросом очереди
-    _processes << new GMT147SPI(&_spi, &_queue, 0ms);
+//    _processes << new GMT147SPI(&_spi, &_queue, 0ms);
 
     _processes << new Mixer(&_i2c, &_queue, 100ms);
     _processes << new Conditioner(&_i2c, &_queue, 1000ms);

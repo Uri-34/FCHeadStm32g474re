@@ -1,7 +1,7 @@
 #ifndef MESSAGE_H
 #define MESSAGE_H
 
-#include "Object/Process/Process.h"
+#include "Process.h"
 
 // // стандартные сообщения об ошибке
 // const string QueueMessageErrorUpdate = "ошибка добавления в очередь...";

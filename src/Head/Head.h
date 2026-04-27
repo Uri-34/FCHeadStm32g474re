@@ -1,14 +1,14 @@
 #ifndef HEAD_H
 #define HEAD_H
 
-#include "Bus/I2CBus/I2CBus.h"
-#include "Bus/SPIBus/SPIBus.h"
-#include "Bus/UARTBus/UARTBus.h"
-#include "Bus/CANBus/CANBus.h"
+#include "I2CBus.h"
+//#include "SPIBus.h"
+//#include "UARTBus.h"
+#include "CANBus.h"
 
-#include "Object/Process/Process.h"
-#include "Object/Message/Message.h"
-#include "Object/Process/ThreadProcess/ThreadProcess.h"
+#include "Process.h"
+#include "Message.h"
+#include "ThreadProcess.h"
 
 //! класс для организации совместной работы всех компонентов головки 
 class Head 
@@ -27,13 +27,13 @@ private:
     
     //! spi шина 
     //          SPI_MOSI  SPI_MISO  SPI_CS    
-    SPIBus _spi{PA_7,     NC,       PA_5}; //    V
-    const uint32_t SPI_FREQUENCY = 40000000; //(40 MHz, 60 MHz, 80 MHz)
+//   SPIBus _spi{PA_7,     NC,       PA_5}; //    V
+//   const uint32_t SPI_FREQUENCY = 40000000; //(40 MHz, 60 MHz, 80 MHz)
 
     //! uart шина
     //            USBTX USBRX    
-    UARTBus _uart{PA_2, PA_3};
-    const int UART_BAUDRATE = 115200;
+//    UARTBus _uart{PA_2, PA_3};
+//    const int UART_BAUDRATE = 115200;
 
     //! can шина 
     CANBus _can{PA_11, PA_12};
