@@ -14,5 +14,14 @@
         "mstd_type_traits": "cpp",
         "mstd_utility": "cpp"
     },
-    "cmake.sourceDirectory": "/home/u34/Рабочий стол/work/FCHead-Stm32g474re/mbed-os"
+    "cmake.sourceDirectory": "/home/u34/Рабочий стол/work/FCHead-Stm32g474re/mbed-os",
+
+    "files.exclude": {
+        "**/TEMP": true,
+        "**/temp": true,
+        "**/Temp": true,
+        "**/TEST": true,
+        "**/test": true,
+        "**/Test": true
+    }
 }

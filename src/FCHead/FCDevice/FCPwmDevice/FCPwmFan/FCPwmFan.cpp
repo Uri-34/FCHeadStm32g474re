@@ -1,9 +1,11 @@
-#include "PwmFan.h"
+#include "FCPwmFan.h"
 
-FCPwmFan::FCPwmFan(const string &name, PinName &pin) 
-    : FCPwmDevice{name, pin}, 
+FCPwmFan::FCPwmFan(const string &name, const PinName pin, uint frequency) 
+    : FCPwmDevice{name, pin},
       _pwm{new PwmOut(pin)} 
-{}   
+{
+    setFrequency(frequency);
+}   
 
 FCPwmFan::~FCPwmFan()
 {

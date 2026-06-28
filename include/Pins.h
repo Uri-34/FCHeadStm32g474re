@@ -17,12 +17,15 @@ const uint8_t MainFanI2CAddress = 0x48;; // рекомендуемый i2c ад�
 // WS2811F
 const PinName MainIndicatorPIN  = PB_11;
 
+// менеджер фидеров
+// ...
+
 // миксер
-const PinName MixerPIN          = PA_0; // ???
-const PinName MixerTX_PIN       = PA_9;
-const PinName MixerRX_PIN       = PA_10;
-const PinName MixerSTEP_PIN     = PB_6;
-const PinName MixerDIR_PIN      = PB_7;
+// const PinName MixerPIN          = PA_0; // ???
+// const PinName MixerTX_PIN       = PA_9;
+// const PinName MixerRX_PIN       = PA_10;
+// const PinName MixerSTEP_PIN     = PB_6;
+// const PinName MixerDIR_PIN      = PB_7;
 
 // пьезо-насосы
 const PinName PiezoPumpPIN      = PA_0; // ???
@@ -31,8 +34,6 @@ const PinName PiezoPumpPIN      = PA_0; // ???
 // I2C
 const uint32_t LOW_I2C_SENSOR_FREQUENCY = 100000;
 const uint32_t HIGH_I2C_SENSOR_FREQUENCY = 400000;
-
-const uint8_t LM73I2CAddress    = 0x48; 
 
 const PinName DistanceSensorPIN = PA_0; // ???
 

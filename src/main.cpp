@@ -1,5 +1,9 @@
 #include "FCHead.h"
 
+// #include <cstdio>  
+
+// #include "FCTerminal.h"
+
 int main() 
 {
     // Msg("Mbed OS version: %d.%d.%d\n",
@@ -10,7 +14,7 @@ int main()
     // mbed::Channel<int, 4> channel;
 
     FCHead _head;
-         _head.exec();
+           _head.exec();
 
     return 0;
 }

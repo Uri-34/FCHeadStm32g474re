@@ -1,84 +1,101 @@
-#include "Head.h"
-
 #include "mbed.h"
 
-#include "Process.h"
+#include "FCHead.h"
 
-#include "Conditioner.h"
-//#include "Object/Process/ThreadProcess/SPIDisplay/GMT147SPI/GMT147SPI.h"
-#include "LaserScaner.h"
-#include "LedIndicator.h"
-#include "Mixer.h"
-#include "Common.h"
+#include "FCProcess.h"
+#include "FCTerminal.h"
 
-Head::Head() 
-    : Process("Головка:", HeadID, osPriorityNormal, 1000ms)
+#include "FCConditioner.h"
+
+#include "FCCANBus.h"
+
+#include "FCFeeder.h"
+
+FCHead::FCHead() 
+    : FCProcess("Головка", HeadID, osPriorityNormal, 1000ms)
 {
-    // устанавливает частоты и скорости
-    // устанавливаем частоту I2C интерфейса...
-    _i2c.frequency(I2C_FREQUENCY);
+    init();
+}
 
-    // устанавливаем частоту SPI интерфейса...
-//    _spi.frequency(SPI_FREQUENCY); // 40 МГц
-    
-    // устанавливаем частоту UART интерфейса...
-//    _uart.set_baud(UART_BAUDRATE);
+void FCHead::init()
+{
+    // фидеры
+    _feeders = new FCFeeders(_i2c);
 
-    // устанавливаем частоту CAN интерфейса...
-    _can.frequency(CAN_FREQUENCY);
+    // кондиционеры
+    _conditioners << new FCConditioner(_i2c, 0x70, "c0", _queue);
+    _conditioners << new FCConditioner(_i2c, 0x71, "c1", _queue);
+    _conditioners << new FCConditioner(_i2c, 0x72, "c2", _queue);
 
-    // инициализируем и добавляем процессы
-    
-    // работают без опроса очереди
-    // ...
-    
-    // работают с опросом очереди
-//    _processes << new GMT147SPI(&_spi, &_queue, 0ms);
+    // проверка состояний шин, кондиционеров, фидеров и установка состояния головки в целом
+    set(_i2c.is(FCState::Ready) && _can.is(FCState::Ready) && 
+        _conditioners.is(FCState::Ready) && _feeders->is(FCState::Ready) ? FCState::Ready : FCState::NotReady);
 
-    _processes << new Mixer(&_i2c, &_queue, 100ms);
-    _processes << new Conditioner(&_i2c, &_queue, 1000ms);
-    _processes << new LaserScanner(&_i2c, &_queue, 100ms);
-    _processes << new LedIndicator(&_queue, 1000ms);
+    // может быть так и оставлю в качестве heart-beet !!!     
+    mbed_event_queue()->call_every(std::chrono::seconds(2), [this]() 
+                                                            { 
+                                                                Msg("Heartbeet раз в 2 сек...");
+                                                                _can.send({id(), getRaw(), {}}); 
+                                                            });
 }
 
 #include "platform/mbed_stats.h"
-void Head::exec()
+void FCHead::exec()
 {
-    mbed_stats_heap_t info;
+    // если нет общей готовности отправляем пакет в CAN
+    // _can.send({id(), getRaw(), {}});
 
-    _processes.start() ? set(Started) : reset(Started);
+    // для отслеживания утечки памяти (ОТЛАДКА)
+    // mbed_stats_heap_t info;
 
-    Msg("процессы стартовали...");
+    Msg("Стартовала: %s", name().c_str());
 
-    Range<uint32_t> queueLimit(3, _queue.size() - 3); 
+    FCRange<uint32_t> queueLimit(3, _queue.size() - 3); 
 
+    int step = 0;
     while(true) 
     {
-        if(!is(Started))
+        // читаем очередь
+
+        // если сообщение необходимо транслировать rpi то отправляем его в can шину
+        
+        // если сообщение отправленно для Head, то обрабатываем его 
+        
+        // проверяем на истечение времени таймера и отправляем heartbeet сообщение rpi
+
+        if(is(FCState::Ready))
         {
-            Msg("Поток " + name() + "не запущен... ");
-            continue;            
-        }    
-
-        mbed_stats_heap_get(&info);
-
-        Msg("Текущее значение кучи: %lu байт", info.current_size);
-        // Msg("Используемый размер кучи: %lu байт", info.max_size);
-        // Msg("Зарезервированный размер кучи: %lu байт", info.reserved_size);
-        // Msg("Счетчик распределенных блоков: %lu", info.alloc_cnt);
-        // Msg("Фрагментация: %lu байт", info.overhead_size);
-
-        // static uint32_t value = 0;
-        // Msg("Индикация работы потока " + name() + "раз в %d сек: v = %d", delay()/1000, value++);
-
-        uint32_t messages = _queue.count();
-        Msg("В очереди - %d сообщений", messages);
-
-        if(!queueLimit.inrange(messages))
-        {
-            _processes.balancer(&_queue);
+            Msg("%s готова: шаг - %d", name().c_str(), step);
+            step++;
         }
+        else    
+        {
+            Msg("%s не готова !!!", name().c_str());
+        }
+
+        // printInfo(info);
+
+        // if(!queueLimit.inrange(messages))
+        // {
+        //     _processes.balancer(&_queue);
+        // }
 
         sleep(delay());
     }
+}
+
+void FCHead::printInfo(mbed_stats_heap_t &info)
+{
+    mbed_stats_heap_get(&info);
+    Msg("Текущее значение кучи: %lu байт", info.current_size);
+    Msg("Используемый размер кучи: %lu байт", info.max_size);
+    Msg("Зарезервированный размер кучи: %lu байт", info.reserved_size);
+    Msg("Счетчик распределенных блоков: %lu", info.alloc_cnt);
+    Msg("Фрагментация: %lu байт", info.overhead_size);
+
+    static uint32_t value = 0;
+    Msg("Индикация работы потока %s раз в %d сек: v = %d", name().c_str(), delay()/1000, value++);
+
+    auto messages = _queue.count();
+    Msg("В очереди - %d сообщений", messages);
 }

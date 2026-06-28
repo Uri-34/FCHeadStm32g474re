@@ -9,10 +9,14 @@ class FCDevice
     : public FCStateObject 
 {
 private:
+    // константное значение по умолчанию = 500ms
     const std::chrono::milliseconds DEFAULT_DEVICE_TIME_OUT = 500ms;
 
     // период опроса устройства
     std::chrono::milliseconds _timeOut; 
+
+protected:
+    virtual bool init() = 0;
 
 public:
     FCDevice(const string &name) 
@@ -25,9 +29,6 @@ public:
     
     // возвращаем период опроса устройства
     inline std::chrono::milliseconds timeOut() { return _timeOut; }
-
-    // виртуальный метод проверяющий на наличие устройства на шине
-    virtual bool ready() { return true; }
 };
 
 #endif // FC_DEVICE_H
